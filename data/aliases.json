@@ -1,0 +1,37 @@
+[
+  {
+    "alias": ["cd", "chdir"],
+    "cmdlet": "Set-Location",
+    "description": "Sets the current working location to a specified location."
+  },
+  {
+    "alias": ["pwd", "gl"],
+    "cmdlet": "Get-Location",
+    "description": "Gets information about the current working location or a location stack."
+  },
+  {
+    "alias": ["dir", "ls", "gci"],
+    "cmdlet": "Get-ChildItem",
+    "description": "Gets the files and folders in a file system drive."
+  },
+  {
+    "alias": ["cat", "gc"],
+    "cmdlet": "Get-Content",
+    "description": "Gets the contents of a file."
+  },
+  {
+    "alias": ["curl", "iwr"],
+    "cmdlet": "Invoke-WebRequest",
+    "description": "Gets content from a webpage on the Internet."
+  },
+  {
+    "alias": ["clear", "cls"],
+    "cmdlet": "Clear-Host",
+    "description": "Clears the display in the host program."
+  },
+  {
+    "alias": ["%", "foreach"],
+    "cmdlet": "ForEach-Object",
+    "description": "Performs an operation against each item in a collection of input objects."
+  }
+]
